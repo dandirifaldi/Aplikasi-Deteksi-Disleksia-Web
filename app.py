@@ -30,7 +30,7 @@ def predict():
     if classes[0]>0.5:
         return render_template('index.html', prediction='Disleksia')
     else :
-        return render_template('index.html', prediction='Disleksia')
+        return render_template('index.html', prediction='Normal')
 
 
 if __name__ == '__main__':
